@@ -1,14 +1,18 @@
 const swiper = new Swiper('.swiper', {
-    loop: true,
-    autoplay: {
-        delay: 8000,
-        disableOnInteraction: false
-    }, 
+    loop: true,     
     pagination: {
         el: '.swiper-pagination',
         clickable: true
     }
-    });
+});
+
+const punktswiper = new Swiper('.punkt__content-swiper', {
+    loop: true,     
+    pagination: {
+        el: '.punkt__content-pagination',
+        clickable: true
+    }
+});
 
 if (window.innerWidth < 1000) {
     document.querySelector('.rent__arrow').src = './img/arrow-mini.svg';
