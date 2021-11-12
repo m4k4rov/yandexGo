@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Самокаты - Яндекс Go</title>    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/styler.min.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <img src="./img/yandGo.svg" alt="logo">
+            </div>
+            <div class="header__link">
+                <a href="#rent">Как арендовать самокат</a>
+                <a href="#punkt">Катайтесь нежно</a>
+                <a href="#where">Где самокаты?</a>
+            </div>
+            <a href="#download" class="header__button">Скачать</a>
+        </div>
+    </header>
+    <section class="scooter">
+        <div class="container">
+            <div class="scooter__img">
+                <img src="./img/scooter.png" alt="scooter">
+            </div>
+            <div class="scooter__text">
+                <span>Скачайте приложение, <br> чтобы арендовать ближайший электросамокат</span>
+            </div>
+            <a href="#" class="scooter__btn">Скачать приложение</a>   
+            <div class="scooter__moscow">
+                <img src="./img/moscow.svg" alt="">
+                Пока только в <a href="#">Москве</a> <br>
+                и <a href="#">Краснодаре</a>
+                
+            </div>
+        </div>      
+    </section>
+
+    <section id="rent" class="rent">
+        <div class="container">
+            <h1 class="rent__title">Как арендовать самокат</h1>
+            <div class="wrapper">
+                <div class="rent__instruct">
+                    <div class="rent__instruct_card">
+                        <img src="./img/rent1.svg" alt="rent">
+                        <div class="rent__instruct_text">В Яндекс Go нажмите кнопку Город</div>
+                    </div>
+                    <div class="rent__instruct_card">
+                        <img src="./img/rent2.svg" alt="rent">
+                        <div class="rent__instruct_text">Найдите на карте ближайшую парковку</div>
+                    </div>
+                    <div class="rent__instruct_card">
+                        <img src="./img/rent3.svg" alt="rent">
+                        <div class="rent__instruct_text">Дойдите до самоката и отсканируйте QR-код на руле</div>
+                    </div>
+                    <img src="./img/rent-arrow.svg" alt="arrow" class="rent__arrow">
+                </div>
+                <div class="rent__video">
+                    <video loop muted autoplay playsinline webkit-playsinline preload="auto" src="./img/mobile.mp4"></video>
+                </div>
+            </div>
+            <div class="rent__button">
+                Готово, едем! Аренда: от 50 рублей <br> + тариф от 6 рублей в минуту
+            </div>
+        </div>        
+    </section>
+
+    <section id="punkt" class="punkt">
+        <div class="container">
+            <div class="swiper__wrapper">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><video controls preload="auto" src="https://streaming.video.yandex.ru/get/yndx-video/m-42220-17a7be0554e-ca9878b3e384ce9b/720p.mp4"></video></div>
+                        <div class="swiper-slide"><video controls preload="auto" src="https://streaming.video.yandex.ru/get/yndx-video/m-67230-17a7be12814-d4349e064a96e559/720p.mp4"></video></div>
+                        <div class="swiper-slide"><video controls preload="auto" src="https://streaming.video.yandex.ru/get/yndx-video/m-28644-17a7be1a0ee-d835336e9d859e4a/720p.mp4"></video></div>
+                        ...
+                    </div>                 
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>                        
+            <div class="punkt__content">                
+                <h2 class="punkt__title">Катайтесь нежно</h2>
+                <div class="wrapper">
+                    <div class="punkt__card">
+                        <img src="./img/punkt1.svg" alt="punkt">
+                        <div class="punkt__card_title">Самокат — <br> только для вас</div>
+                        <div class="punkt__card_text">Кататься вдвоём на одном самокате правда опасно.</div>
+                    </div>
+                    <div class="punkt__card">
+                        <img src="./img/punkt2.svg" alt="punkt">
+                        <div class="punkt__card_title">Лучше наденьте шлем</div>
+                        <div class="punkt__card_text">Если только учитесь кататься, не повредит и другая защита.</div>
+                    </div>
+                    <div class="punkt__card">
+                        <img src="./img/punkt3.svg" alt="punkt">
+                        <div class="punkt__card_title">Катайтесь трезвыми</div>
+                        <div class="punkt__card_text">Это правило справедливо для любого транспорта.</div>
+                    </div>
+                    <div class="punkt__card">
+                        <img src="./img/punkt4.svg" alt="punkt">
+                        <div class="punkt__card_title">Переходите дорогу только пешком</div>
+                        <div class="punkt__card_text">То же с бордюрами и ступеньками.</div>
+                    </div>
+                    <div class="punkt__card">
+                        <img src="./img/punkt5.svg" alt="punkt">
+                        <div class="punkt__card_title">Уступайте пешеходам</div>
+                        <div class="punkt__card_text">Вы тоже один из них.</div>
+                    </div>
+                    <div class="punkt__card">
+                        <img src="./img/punkt6.svg" alt="punkt">
+                        <div class="punkt__card_title">Катайтесь
+                            по-взрослому</div>
+                        <div class="punkt__card_text">Вы можете взять самокат, если вам уже исполнилось 18 лет.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="punkt__insurance">
+                <img src="./img/insurance.svg" alt="insurance">
+                <div class="punkt__insurance_text">Во время катания действует <a href="#">базовое страхование</a> жизни и здоровья на сумму до 100 000 ₽. А ещё в приложении можно купить <a href="#">расширенную страховку</a> с покрытием до 500 000 ₽ и страхованием имущества. Если в поездке что-то произошло, сразу же пишите в поддержку.</div>
+            </div>   
+        </div>
+    </section>
+
+    <section class="art">  
+        <img class="art__img" src="./img/art.svg" alt="art">      
+        <div class="container">                        
+            <div class="art__title">Искусство кататься</div>
+            <div class="art__subtitle"> <a href="#">Коллекция</a> про стиль и безопасность, а не скорость.</div>
+            <div class="art__textBx">
+                Специально для Маркета и Яндекс Go московские художники создали капсульную коллекцию защитных шлемов и разработали дизайн самокатов для безопасных поездок. Каждый шлем расписан вручную, а самокаты — в авторской оклейке художников.
+            </div>
+        </div>
+    </section>
+
+    <section id="where" class="where">
+        <div class="container">
+            <h2 class="where__title">Где есть самокаты</h2>
+            <div class="where__subtitle">Самокаты постепенно появляются в разных районах Москвы. Карта в приложении покажет, где взять самокат — и на какой парковке его можно оставить.</div>
+            <img src="./img/card.jpg" alt="cart">
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="download__title">Скачайте <br> приложение</h2>
+            <div class="download__subtitle">Введите номер и мы пришлём вам СМС со ссылкой на приложение</div>
+            <form action="">
+                <input autocomplete="off" placeholder="7 123 XXXXXXX" class="download__tel" type="tel" name="phone" required>
+                <button class="download__btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="https://github.com/m4k4rov" target="_blank"> @ Makarov Pavel</a>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+</body>
+</html>
